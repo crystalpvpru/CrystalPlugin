@@ -1,0 +1,17 @@
+name: CrystalPlugin
+version: 1.2.4
+author: mrnv
+main: me.mrnv.crystalplugin.Main
+soft-depend: [Duels, ProtocolLib]
+depend: [DeathMessagesPrime]
+commands:
+  clean:
+    description: cleans spawn areas
+    usage: /clean
+  endsaving:
+    description: toggles the end world saving
+    aliases: [endsave, saveend, theendsave, toggleendsave, togglesaveend, toggleendsaving]
+    usage: /endsaving
+  help:
+    description: replaces standard /help
+    usage: /help
